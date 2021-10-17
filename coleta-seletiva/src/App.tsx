@@ -1,5 +1,6 @@
 import React from 'react';
-
+import './App.css'
+import Home from './Pages/Home/index'
 
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
         <h1>
           eai brasil
         </h1>
+        <Home />
       </header>
     </div>
   );
